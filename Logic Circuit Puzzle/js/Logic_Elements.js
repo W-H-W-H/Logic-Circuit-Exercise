@@ -1,3 +1,20 @@
+/***********************************preload images***********************************/
+function preload() {
+    Images[0] = loadImage("./image/NAND_Gate.png");
+    Images[1] = loadImage("./image/Variable.png");
+    Images[2] = loadImage("./image/Output.png");
+    Images[3] = loadImage("./image/NOT_Gate.png");
+    Images[4] = loadImage("./image/AND_Gate.png");
+    Images[5] = loadImage("./image/OR_Gate.png");
+    Images[6] = loadImage("./image/NOR_Gate.png");
+    Images[7] = loadImage("./image/XOR_Gate.png");
+    Images[8] = loadImage("./image/XNOR_Gate.png");
+    Images[9] = loadImage("./image/Const_In1.png");
+    Images[10] = loadImage("./image/Const_In0.png");
+    Images[11] = loadImage("./image/Half_Adder.png");
+    Images[12] = loadImage("./image/Full_Adder.png")
+  }
+
 /********************************* Empty Input *********************************/
 class Empty_In {
     static Instance = new Empty_In();
